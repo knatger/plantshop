@@ -175,7 +175,7 @@ a span {
   margin-bottom: 16px;
 }
 
-h2 {
+h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -229,4 +229,74 @@ hr {
   line-height: 20px;
   text-align: center;
   color: #000000;
+}
+
+.article {
+  display: flex;
+  max-height: 610px;
+  margin-bottom: 37px;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+  max-width: 613px;
+}
+h2 {
+  max-width: 522px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  color: #2c1500;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.textarea p {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+  max-width: 507px;
+}
+
+.article-textarea-image {
+  padding: 51px 45px 51px 0;
+}
+.article-main-img {
+  max-width: 513px;
+  margin-left: 39px;
+}
+
+.hero {
+  display: flex;
+  margin-bottom: 80px;
+  background: #f3f4f6;
+  max-height: 360px;
+}
+
+.hero-text {
+  margin-top: 88px;
+  margin-left: 97px;
+  max-width: 585px;
+}
+
+.hero-text h2 {
+  margin-bottom: 42px;
+}
+
+.hero-link {
+  max-width: 152px;
+  padding: 10px 42px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #fafefe;
+  background: #156963;
+  border: 1px solid #156963;
+}
+.hero-image {
+  margin-left: 43px;
+  max-width: 402px;
 }
